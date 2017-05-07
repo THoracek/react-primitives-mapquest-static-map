@@ -12,6 +12,10 @@
     "type": "git",
     "url": "git@github.com:THoracek/react-primitives-mapquest-static-map.git"
   },
+  "files": [
+    "lib/MapQuestStaticMap.js",
+    "README.md"
+  ],
   "keywords": [
     "react-component",
     "mapquest",
