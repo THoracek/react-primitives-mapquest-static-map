@@ -11,9 +11,9 @@ import MapQuestStaticMap from '../src/MapQuestStaticMap';
 
 
 const mockLocation = {
-  latitude: '32.064171',
-  longitude: '34.7748068',
-  zoom: 13,
+  latitude: '37.7749',
+  longitude: '-122.4194',
+  zoom: 11,
   size: {
     width: 300,
     height: 550
