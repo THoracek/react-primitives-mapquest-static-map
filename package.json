@@ -1,0 +1,41 @@
+{
+  "name": "react-primitives-mapquest-static-map",
+  "version": "0.0.0",
+  "description": "A wrapper for MapQuest's Static Map API",
+  "main": "lib/MapQuestStaticMap.js",
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib --ignore __tests__/*",
+    "release": "np",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:"
+  },
+  "files": [
+    "MapQuestStaticMap.js",
+    "README.md"
+  ],
+  "keywords": [
+    "react-component",
+    "mapquest",
+    "static-map",
+    "map"
+  ],
+  "author": "Thomas Horacek (horacek.thomas@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-native": ">=0.6.0",
+    "react-primitives": "^0.3.4",
+    "react-sketchapp": "^0.9.1",
+    "react-test-renderer": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-preset-airbnb": "^2.2.3",
+    "np": "^2.13.1"
+  }
+}
