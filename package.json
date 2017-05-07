@@ -1,6 +1,6 @@
 {
   "name": "react-primitives-mapquest-static-map",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A wrapper for MapQuest's Static Map API",
   "main": "lib/MapQuestStaticMap.js",
   "scripts": {
